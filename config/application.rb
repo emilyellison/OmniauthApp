@@ -14,7 +14,7 @@ module OmniauthApp
     
     # Based on Devise instructions.
     config.assets.initialize_on_precompile = false
-    config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+    config.action_mailer.default_url_options = { :host => 'http://falling-water-3758.herokuapp.com/' }
     
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers

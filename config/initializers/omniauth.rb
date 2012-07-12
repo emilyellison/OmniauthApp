@@ -1,6 +1,5 @@
 if Rails.env.production?
-  # CHANGE LATER
-  OmniAuth.config.full_host = "http://my-app-name.heroku.com"
+  OmniAuth.config.full_host = "http://falling-water-3758.herokuapp.com/"
 else
   OmniAuth.config.full_host = "http://localhost:3000"
 end
